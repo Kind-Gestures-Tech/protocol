@@ -1,0 +1,37 @@
+# Kind Health Tech Token on Bitcoin Ordinals Testnet
+
+## Overview
+
+The Kind Health Tech Token (KHT), under the ticker KIND, is being tested on the Bitcoin Ordinals testnet using the Ordinals protocol philosophy. You can access the testnet [here](https://testnet.unisat.io/brc20/KIND). This allows KHT holders to mint tokens and conduct transactions using the KIND ticker, adhering to the BRC-20 standard.
+
+## BRC-20 Standard
+
+The BRC-20 standard is used to facilitate transactions for KIND tokens on the Bitcoin network. Below is an example of the deployment schema used:
+
+```json
+{
+  "p": "brc-20",
+  "op": "deploy",
+  "tick": "KIND",
+  "max": "21000000",
+  "lim": "1000000"
+}
+```
+
+## Details
+
+Ticker: KIND
+Maximum Supply: 21,000,000 KIND
+Mint Limit: 1,000,000 KIND per mint operation
+
+## Philosophy of Bitcoin Ordinals
+
+The Bitcoin Ordinals protocol provides a decentralized way to inscribe digital artifacts on the blockchain. The KIND tokens follow the philosophy of Ordinals by:
+
+- Self-Issuance: Allowing public minting of tokens.
+- Transparency: Making all transactions and inscriptions traceable and auditable.
+- Interoperability: Enabling cross-chain compatibility between Bitcoin and other networks.
+
+## Migration to 5-Byte Standard
+
+Currently, KIND uses the 4-byte standard. In the production phase, we will migrate to a 5-byte standard to ensure scalability and adaptability. This will enable the public to issue tokens and ensure only authorized participants can mint them.
